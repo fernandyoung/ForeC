@@ -285,5 +285,5 @@ def page_not_found(e):
 	return render_template('404.html')
 	pass
 
-if __name__ == '__main__':
-	app.run(debug=False,host='0.0.0.0')
+# if __name__ == '__main__':
+# 	app.run(debug=False,host='0.0.0.0')
