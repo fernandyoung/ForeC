@@ -1,0 +1,9 @@
+yfinance
+pandas
+numpy
+sklearn
+flask
+json
+Werkzeug
+matplotlib
+flask_mysqldb
