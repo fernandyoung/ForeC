@@ -20,11 +20,7 @@ app = Flask(__name__)
 
 #connection
 app.secret_key = 'sasukeuchiha'
-app.config['MYSQL_HOST'] = 'sql6.freemysqlhosting.net'
-app.config['MYSQL_USER'] = 'sql6632871'
-app.config['MYSQL_PASSWORD'] = 'kQMdtev3UM'
-app.config['MYSQL_DB'] = 'sql6632871'
-mysql = db.connection(app)
+mysql = db.connection()
 
 today = datetime.today().date()
 yesterday = today+timedelta(days=1)
