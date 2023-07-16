@@ -7,8 +7,6 @@ colorama==0.4.6
 contourpy==1.0.7
 cycler==0.11.0
 Flask==2.2.2
-mysqlclient==2.1.1
-Flask-MySQLdb==1.0.1
 fonttools==4.39.4
 frozendict==2.3.8
 html5lib==1.1
@@ -21,10 +19,12 @@ lxml==4.9.3
 MarkupSafe==2.1.2
 matplotlib==3.7.1
 multitasking==0.0.11
+mysql-connector-python==8.0.33
 numpy==1.24.3
 packaging==23.1
 pandas==2.0.1
 Pillow==9.5.0
+protobuf==3.20.3
 pyparsing==3.0.9
 python-dateutil==2.8.2
 pytz==2023.3
